@@ -165,13 +165,13 @@ export default function BlogPage() {
 
                 {/* Travelling Agents Banner */}
                 <div className="relative h-48 md:h-32 rounded-lg overflow-hidden mb-12 bg-gray-100 flex items-center p-4 md:p-8">
-                   <Image src="https://placehold.co/1200x200.png" data-ai-hint="travel snowy mountains" alt="Travel Banner" fill className="object-cover opacity-80" />
+                   <Image src="/img_1/a7f20d2dd05a08e6d6b0690cd0e0ef4e831d8cf6.jpg" data-ai-hint="travel snowy mountains" alt="Travel Banner" fill className="object-cover opacity-100" />
                    <div className="relative z-10 flex flex-col md:flex-row justify-between items-start md:items-center w-full gap-4">
                       <div className='text-center md:text-left'>
-                        <p className="text-teal-600 font-bold text-sm tracking-widest">TRAVELLING AGENTS</p>
-                        <p className='text-black font-bold text-2xl tracking-widest'>FOR YOUR</p>
+                        {/* <p className="text-teal-600 font-bold text-sm tracking-widest">TRAVELLING AGENTS</p> */}
+                        {/* <p className='text-black font-bold text-2xl tracking-widest'>FOR YOUR</p> */}
                       </div>
-                     <Button variant="secondary" className="bg-gray-800 text-white hover:bg-gray-700 text-xs px-4 py-2 h-auto self-center md:self-auto">See Details</Button>
+                     {/* <Button variant="secondary" className="bg-gray-800 text-white hover:bg-gray-700 text-xs px-4 py-2 h-auto self-center md:self-auto">See Details</Button> */}
                    </div>
                 </div>
 

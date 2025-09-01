@@ -3,25 +3,74 @@ import type { BlogPost } from '@/types';
 export const blogPosts: BlogPost[] = [
   {
     slug: 'beyond-algorithms-skills-of-designers',
-    title: 'Beyond Algorithms: Skills Of Designers That AI Can\'t Replicate',
-    date: '2024-07-20',
-    author: 'Elena Rivera',
-    authorImage: 'https://placehold.co/100x100.png',
-    category: 'Design',
-    image: 'https://placehold.co/1200x600.png',
+    title: 'Understanding Mental Health Beyond the Big Moments',
+    date: '2022-11-14',
+    author: 'Vtalix',
+    authorImage: '/img_2/0.png',
+    category: 'Mental Health',
+    image: '/img_2/1.png',
     description: 'While AI is a powerful tool, it can\'t replace the uniquely human skills that great designers possess. Explore the creative, empathetic, and strategic abilities that set human designers apart.',
-    content: `Artificial Intelligence is reshaping the design landscape, automating tasks and offering powerful new capabilities. However, the essence of great design lies beyond algorithms. This article delves into the core skills that remain the domain of human designers. We'll discuss the importance of empathy in understanding user needs, the role of critical thinking in problem-solving, and the creative intuition that leads to breakthrough innovations. Learn why these human-centric skills are more valuable than ever in an AI-driven world and how designers can leverage AI as a partner, not a replacement.`,
-  },
+    content: `<h1 class="blog-heading">The Little Things That Shape Our Hearts</h1>
+
+<p>When we think of mental health challenges, we often imagine life's big storms, breakups, job loss, serious illness, or traumatic events. But sometimes, it's the tiny moments that shape how we feel about ourselves and the world.</p>
+
+<p>Take the story of a little girl who loved special scones. She would share them with her friends, making everyone happy. Weeks later, she saw the same friends eating the same scones but wasn't offered any. It was a small thing, but it felt huge to her. The feeling of exclusion settled in deep because, as a child, she didn't have the context or perspective to process it.</p>
+
+<p>Years later, in her +2 Boards, she still remembered that moment. Not for the scone itself, but for the feeling of being left out, for the sense that kindness wasn't always reciprocated. That feeling connected to other disappointments—like when her father couldn't take her to the trampoline park. Over time, she learned to feel indifferent in such moments. She learned to expect less, feel less, hope less.</p>
+
+<p>A quiet pattern built up inside her:</p>
+<ul>
+  <li>Small disappointments turning into lasting grudges</li>
+  <li>Moments of joy being overshadowed by a sense of exclusion</li>
+  <li> An emotional story replaying in her head over and over</li>
+</ul>
+
+<p>Without realizing it, her mental health was being shaped, not just by 'big' events, but by small, repeated moments she never processed.</p>
+
+<h1 class="blog-heading">Mental Health: It’s Not Just About ‘Problems’</h1>
+
+<p>Mental health isn't just about serious mental illness like, depression or anxiety or trauma (though those matter enormously). It's about how we navigate our everyday emotional world. How we make sense of disappointment. How we handle feeling left out. How wetalk to ourselves when things don't go as planned. It’s about how we think, feel, and respond to life, every day. It’s about the stories we tell ourselves and the emotions we carry forward.</p>
+
+<p>Being mentally well means:</p>
+
+<ul>
+  <li> Understanding our emotions.</li>
+  <li> Being curious about your own reactions instead of just accepting them (be introspective)</li>
+  <li> Knowing how to respond instead of just reacting</li>
+</ul>
+
+<p>But here’s the truth; this is easier said than done. Most of us aren’t taught how to process emotions or break patterns that have been there for years. We're supposed to just... figure it out? While dealing with school, relationships, family expectations, and everything else life throws at us?</p>
+<h1 class="blog-heading">Here’s Where We Step In</h1>
+
+<p>At <b>Vtalix</b>, we believe that therapy should not be a last resort when everything falls apart.</p>
+<p>
+It should be a part of everyday wellness, not just when life feels heavy. Just the way one goes to the gym or eats healthy. After all you deserve a personal trainer for your emotional life because you want to be the healthiest most authentic version of yourself.</p>
+<p>With <b>Vtalix</b>, finding the right therapist is just at your fingertips. You choose who you connect with, and how; chat, call, or video, at the time that suits your schedule.</p>
+<p>Because mental wellness is not about “fixing what’s broken” it’s about understanding yourself, breaking emotional patterns, and untangling the patterns that don’t serve you anymore, and writing new chapters in your story</p>
+<p>
+<b>Small moments can have a big impact.</b></br>
+The scone was never just a scone, it was a story about connection, kindness, and belonging.Your story - whatever small moments have shaped, it deserves to be heard, understood, and cared for.</p>
+
+<p><b>It’s not the size of the wound, but how long we carry it, that shapes the heart.</b></p>
+<p><b>Your emotions matter. Your story matters. And so do you</b></p>
+
+
+
+
+
+`,
+
+},
   {
-    slug: 'mastering-react-hooks',
-    title: 'Mastering React Hooks for Cleaner Code',
-    date: '2024-07-15',
-    author: 'Jane Doe',
-    authorImage: 'https://placehold.co/100x100.png',
-    category: 'React',
-    image: 'https://placehold.co/1200x600.png',
-    description: 'Dive deep into React Hooks and learn how to write more readable, maintainable, and efficient components.',
-    content: `React Hooks have revolutionized how we write components. They let you use state and other React features without writing a class. In this post, we'll explore the most common Hooks and some advanced patterns.
+      slug: 'mastering-react-hooks',
+      title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      date: '2024-07-15',
+      author: 'Jane Doe',
+      authorImage: 'https://placehold.co/100x100.png',
+      category: 'Product',
+      image: '/img_2/2.jpg',
+      description: 'Dive deep into React Hooks and learn how to write more readable, maintainable, and efficient components.',
+      content: `React Hooks have revolutionized how we write components. They let you use state and other React features without writing a class. In this post, we'll explore the most common Hooks and some advanced patterns.
 
 useState is the most basic hook. It lets you add React state to function components.
 
@@ -34,12 +83,12 @@ We will cover these and more, with practical examples to solidify your understan
   },
   {
     slug: 'getting-started-with-nextjs-15',
-    title: 'Getting Started with Next.js 15',
+    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     date: '2024-07-10',
     author: 'John Smith',
-    authorImage: 'https://placehold.co/100x100.png',
-    category: 'Next.js',
-    image: 'https://placehold.co/1200x600.png',
+    authorImage: '/img_1/9d1c816ec08975132090c7235cad45847b2b6e74.jpg',
+    category: 'Product | Enterprise',
+    image: '/img_2/3.jpg',
     description: 'A comprehensive guide to setting up your first Next.js 15 project, covering the new features and improvements.',
     content: `Next.js 15 is here, and it brings a host of new features to the table. From improved server components to compiler optimizations, this version is all about performance and developer experience.
 
@@ -54,12 +103,12 @@ By the end, you'll have a solid foundation to build your next-generation web app
   },
   {
     slug: 'the-power-of-generative-ai',
-    title: 'The Power of Generative AI in Modern Applications',
+    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     date: '2024-07-05',
     author: 'Alice Johnson',
     authorImage: 'https://placehold.co/100x100.png',
-    category: 'AI',
-    image: 'https://placehold.co/1200x600.png',
+    category: 'Productivity',
+    image: '/img_2/4.jpg',
     description: 'Explore how generative AI is transforming industries and how you can integrate it into your own projects.',
     content: `Generative AI is not just a buzzword; it's a technological shift. From creating realistic images to writing human-like text, the possibilities are endless.
 
@@ -73,12 +122,12 @@ We'll also provide a high-level overview of how to use popular AI APIs to bring 
   },
   {
     slug: 'how-to-protect-your-app',
-    title: 'How To Protect Your App With Threat Model Based On JSONDiff',
+    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     date: '2024-06-25',
     author: 'Samurai Jack',
     authorImage: 'https://placehold.co/100x100.png',
-    category: 'Security',
-    image: 'https://placehold.co/1200x600.png',
+    category: 'PRODUCTIVITY',
+    image: '/img_2/5.jpg',
     description: 'A practical guide to implementing threat modeling in your development lifecycle using JSONDiff to identify and mitigate potential security vulnerabilities before they become a problem.',
     content: `In today's digital landscape, application security is paramount. Proactively identifying threats is far more effective than reacting to breaches. This article introduces the concept of threat modeling, a structured process to identify and prioritize potential threats to an application. We will focus on a practical approach using JSONDiff, a tool that can highlight changes in data structures and reveal potential vulnerabilities. Learn how to integrate this process into your CI/CD pipeline to build more secure and resilient applications from the ground up.`,
   },
