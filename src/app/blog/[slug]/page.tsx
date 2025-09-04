@@ -26,7 +26,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       {/* HEADER */}
       <div className="container mx-auto px-6 md:px-12 lg:px-24 pt-16 lg:pt-24">
         <header className="mb-7 max-w-2xl">
-          <span className="text-xs text-[#115FD6] tracking-wider">
+          <span className="text-xs text-[#FF6801] font-semibold tracking-wider">
             {post.category.toUpperCase()}
           </span>
           <h1 className="text-3xl md:text-5xl lg:text-4xl xl:text-5xl text-[#172B4D] my-4 tracking-wide mb-10 lg:mb-20">

@@ -25,7 +25,7 @@ function NavLink({ href, label }: { href: string; label: string }) {
     <Link
       href={href}
       className={cn(
-        'relative text-[18px] font-semibold transition-colors hover:text-primary',
+        'relative text-base font-semibold transition-colors hover:text-primary',
         isActive ? 'text-primary' : 'text-black'
       )}
       prefetch={false}
@@ -54,15 +54,15 @@ export default function Header() {
         <span className="text-3xl font-bold text-black">vtalix<span className="text-orange-500">.</span></span>
       </Link>
       
-      <nav className="ml-auto hidden lg:flex gap-7 items-center">
+      <nav className="ml-auto hidden lg:flex gap-4 items-center">
         {navLinks.map((link) => (
           <NavLink key={link.label} {...link} />
         ))}
-        <div className="flex items-center gap-4">
-           <Button variant="secondary" className="rounded-[40px] text-[18px] px-6 bg-orange-100 text-black hover:bg-orange-200">
+        <div className="flex items-center gap-3">
+           <Button variant="secondary" className="rounded-[40px] text-base px-4 bg-orange-100 text-black hover:bg-orange-200">
              <Link href="#">Login</Link>
            </Button>
-           <Button className="rounded-[40px] px-6 text-[18px] bg-orange-500 text-white hover:bg-orange-500/90">
+           <Button className="rounded-[40px] px-4 text-base bg-orange-500 text-white hover:bg-orange-500/90">
              <Link href="#">Start Assessment</Link>
            </Button>
          </div>

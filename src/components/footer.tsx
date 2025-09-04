@@ -57,7 +57,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-6 gap-6">
           <nav className="flex flex-wrap gap-x-6 gap-y-2 justify-center items-center">
             {mainLinks.map((link) => (
-              <Link key={link.name} href={link.to} className="hover:text-primary hover:underline font-600 text-base sm:text-[18px] text-black font-poppins">
+              <Link key={link.name} href={link.to} className="hover:text-primary hover:underline font-600 text-base sm:text-base text-black font-poppins">
                 {link.name}
               </Link>
             ))}
@@ -74,7 +74,7 @@ const Footer = () => {
         <hr className="border-gray-200" />
 
         {/* Bottom Row */}
-        <div className="flex flex-col md:flex-row justify-between items-center mt-6 text-black font-600 text-base sm:text-[18px] gap-4">
+        <div className="flex flex-col md:flex-row justify-between items-center mt-6 text-black font-600 text-base sm:text-base gap-4">
           <div className="flex flex-wrap gap-x-6 gap-y-2 items-center justify-center">
             {footerBottomLinks.map((link) => (
               <Link key={link.name} href={link.to} className="hover:text-primary hover:underline">
