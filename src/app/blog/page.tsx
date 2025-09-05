@@ -126,7 +126,7 @@ export default function BlogPage() {
   const numberedTopStories = blogPosts.slice(0, 5);
   const politicsPosts = blogPosts.filter(p => p.category === 'AI' || p.category === 'Security').slice(0, 4);
   const hotSpotPosts = blogPosts.slice(2, 5);
-  const latestPosts = blogPosts.slice(0, 3);
+  const latestPosts = blogPosts.slice(0, 5);
   
   const mainPoliticsPost = politicsPosts[0];
   const otherPoliticsPosts = politicsPosts.slice(1);
@@ -136,17 +136,17 @@ export default function BlogPage() {
       <div className="container mx-auto px-4 py-8 md:py-12">
         
         {/* Top Section Grid */}
-        <div className="grid grid-cols-12 gap-8 mb-12 items-start">
+        {/* <div className="grid grid-cols-12 gap-8 mb-12 items-start"> */}
           {/* Side Posts */}
-          <div className="col-span-12 md:col-span-3 space-y-8 md:order-1">
+          {/* <div className="col-span-12 md:col-span-3 space-y-8 md:order-1">
             {sidePosts.map(post => <SidePost key={post.slug} post={post} />)}
-          </div>
+          </div> */}
           {/* Featured Post */}
-          <div className="col-span-12 md:col-span-6 md:order-2">
+          {/* <div className="col-span-12 md:col-span-6 md:order-2">
             <FeaturedPost post={featuredPost} />
-          </div>
+          </div> */}
           {/* Right Sidebar */}
-          <aside className="col-span-12 md:col-span-3 space-y-8 md:order-3">
+          {/* <aside className="col-span-12 md:col-span-3 space-y-8 md:order-3">
             <div>
               <h2 className="text-lg font-bold font-headline mb-4 text-black relative">
                 <span className="absolute -top-1 left-0 h-0.5 w-10 bg-orange-500" />
@@ -157,33 +157,33 @@ export default function BlogPage() {
               </div>
             </div>
           </aside>
-        </div>
+        </div> */}
 
-        <div className="grid grid-cols-12 gap-8">
+        <div className="flex justify-center" >
             {/* Main Content Area */}
-            <div className="col-span-12 lg:col-span-9">
+            <div className="w-full max-w-6xl ">
 
                 {/* Travelling Agents Banner */}
-                <div className="relative h-48 md:h-32 rounded-lg overflow-hidden mb-12 bg-gray-100 flex items-center p-4 md:p-8">
-                   <Image src="https://placehold.co/1200x200.png" data-ai-hint="travel snowy mountains" alt="Travel Banner" fill className="object-cover opacity-80" />
+                {/* <div className="relative h-48 md:h-32 rounded-lg overflow-hidden mb-12 bg-gray-100 flex items-center p-4 md:p-8">
+                   <Image src="/img_1/a7f20d2dd05a08e6d6b0690cd0e0ef4e831d8cf6.jpg" data-ai-hint="travel snowy mountains" alt="Travel Banner" fill className="object-cover opacity-100" />
                    <div className="relative z-10 flex flex-col md:flex-row justify-between items-start md:items-center w-full gap-4">
-                      <div className='text-center md:text-left'>
-                        <p className="text-teal-600 font-bold text-sm tracking-widest">TRAVELLING AGENTS</p>
-                        <p className='text-black font-bold text-2xl tracking-widest'>FOR YOUR</p>
-                      </div>
-                     <Button variant="secondary" className="bg-gray-800 text-white hover:bg-gray-700 text-xs px-4 py-2 h-auto self-center md:self-auto">See Details</Button>
-                   </div>
-                </div>
+                      <div className='text-center md:text-left'> */}
+                        {/* <p className="text-teal-600 font-bold text-sm tracking-widest">TRAVELLING AGENTS</p> */}
+                        {/* <p className='text-black font-bold text-2xl tracking-widest'>FOR YOUR</p> */}
+                      {/* </div> */}
+                     {/* <Button variant="secondary" className="bg-gray-800 text-white hover:bg-gray-700 text-xs px-4 py-2 h-auto self-center md:self-auto">See Details</Button> */}
+                   {/* </div> */}
+                {/* </div> */}
 
                 {/* Politics Section */}
-                <section className="mb-12">
-                   <div className="flex items-center mb-4">
+                {/* <section className="mb-12"> */}
+                   {/* <div className="flex items-center mb-4">
                      <h2 className="text-xl font-bold font-headline text-black">Politics</h2>
                      <span className="h-1 w-10 bg-orange-500 ml-4"></span>
-                   </div>
-                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                   </div> */}
+                   {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8"> */}
                       {/* Main Politics Post - Left Column */}
-                      <div className='group flex'>
+                      {/* <div className='group flex'>
                         <div className="flex flex-col sm:flex-row items-start gap-4">
                           <div className="relative w-full sm:w-1/2 aspect-square rounded-lg overflow-hidden shrink-0">
                              <Image src={mainPoliticsPost.image} alt={mainPoliticsPost.title} fill className="object-cover" />
@@ -212,10 +212,10 @@ export default function BlogPage() {
                              </Button>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
 
                       {/* Other Politics Posts - Right Column */}
-                      <div className='space-y-4 md:border-l border-gray-200 md:pl-8'>
+                      {/* <div className='space-y-4 md:border-l border-gray-200 md:pl-8'>
                          {otherPoliticsPosts.map(post => (
                             <div key={post.slug} className='pb-4 group last:pb-0 border-b md:border-b-0 last:border-b-0'>
                                <h4 className='font-semibold text-black group-hover:underline text-md leading-tight'>
@@ -227,12 +227,12 @@ export default function BlogPage() {
                                </div>
                             </div>
                          ))}
-                      </div>
-                   </div>
-                </section>
+                      </div> */}
+                   {/* </div> */}
+                {/* </section> */}
 
                 {/* Today's Hot Spot */}
-                <section className="mb-12">
+                {/* <section className="mb-12">
                     <div className="flex items-center mb-4">
                         <h2 className="text-xl font-bold font-headline text-black">Today's Hot Spot</h2>
                         <span className="h-1 w-10 bg-orange-500 ml-4"></span>
@@ -240,19 +240,19 @@ export default function BlogPage() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                         {hotSpotPosts.map(post => <HotSpotCard key={post.slug} post={post} />)}
                     </div>
-                </section>
+                </section> */}
 
                 {/* Latest Articles Section */}
                 <section>
-                    <h2 className="text-xl font-bold font-headline mb-4 text-black"><span className="border-b-4 border-orange-500 pb-1">Latest Articles</span></h2>
-                    <div className="space-y-8">
+                    {/* <h2 className="text-xl   font-bold font-headline text-center mb-4 text-black"><span className="border-b-4 border-orange-500 pb-1">Latest Articles</span></h2> */}
+                    <div className="space-y-8 md:mt-10 items-center">
                         {latestPosts.map(post => <BlogPostCardLarge key={post.slug} post={post} />)}
                     </div>
                 </section>
             </div>
 
             {/* Right Sidebar Continued */}
-            <aside className="col-span-12 lg:col-span-3 space-y-8">
+            {/* <aside className="col-span-12 lg:col-span-3 space-y-8">
                 <div className="bg-gray-50 p-4 rounded-lg hidden md:block">
                     <div className="relative h-40 w-full mt-4">
                        <Image src="https://placehold.co/300x200.png" data-ai-hint="shoes fashion" alt="Ad Offer" fill className="object-contain" />
@@ -264,7 +264,7 @@ export default function BlogPage() {
                      {numberedTopStories.map((post, index) => <NumberedTopStory key={post.slug} post={post} index={index} />)}
                    </div>
                 </div>
-            </aside>
+            </aside> */}
         </div>
       </div>
     </div>

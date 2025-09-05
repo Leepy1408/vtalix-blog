@@ -57,3 +57,48 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .blog-heading {
+    color:#172B4D !important;
+    font-size: clamp(1.75rem, 2.25vw + 1rem, 3.25rem) !important; /* ~28px → ~52px */
+    font-weight:400 !important;
+    text-align: left !important;
+    margin-bottom: 1.5rem !important;
+    margin-top: 2rem !important;
+    line-height: 1.25 !important;
+  }
+  
+  .prose .blog-heading {
+    color:#172B4D !important;
+    font-size: clamp(1.75rem, 2.25vw + 1rem, 3.25rem) !important; /* ~28px → ~52px */
+    font-weight: 400 !important;
+    /* font-family:'Artox Geodesic'; */
+    text-align: left !important;
+    margin-bottom: 1.5rem !important;
+    margin-top: 2rem !important;
+    line-height: 1.25 !important;
+  }
+
+  /* Scoped typography for blog content */
+  .prose-custom :where(p) {
+color: #000 !important;
+font-size: 22px!important;
+font-style: normal!important;
+font-weight: 400!important;
+line-height: 33px!important; /* 150% */       /* vertical rhythm */
+  }
+
+  .prose-custom :where(p b, p strong) {
+    color: #000000;
+    font-weight: 400;
+  }
+  
+}
+@font-face {
+  font-family: "Artox Geodesic";
+  src: url("/fonts/Artox/ArtoxGeodesic-Regular.woff2") format("woff2");  
+}
+@layer components {
+  .font-poppins { font-family: "Poppins", sans-serif; }
+}

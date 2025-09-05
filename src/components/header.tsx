@@ -25,7 +25,7 @@ function NavLink({ href, label }: { href: string; label: string }) {
     <Link
       href={href}
       className={cn(
-        'relative text-sm font-medium transition-colors hover:text-primary',
+        'relative text-base font-semibold transition-colors hover:text-primary',
         isActive ? 'text-primary' : 'text-black'
       )}
       prefetch={false}
@@ -49,20 +49,20 @@ export default function Header() {
   }, [pathname]);
 
   return (
-    <header className="sticky top-0 z-50 bg-white px-4 sm:px-6 lg:px-8 h-20 flex items-center shadow-sm">
+    <header className="sticky top-0 z-50 bg-white px-4 sm:px-6 lg:px-8 h-20 flex items-center shadow-sm font-poppins">
        <Link href="/" className="flex items-center" prefetch={false}>
         <span className="text-3xl font-bold text-black">vtalix<span className="text-orange-500">.</span></span>
       </Link>
       
-      <nav className="ml-auto hidden lg:flex gap-8 items-center">
+      <nav className="ml-auto hidden lg:flex gap-4 items-center">
         {navLinks.map((link) => (
           <NavLink key={link.label} {...link} />
         ))}
-        <div className="flex items-center gap-2 pl-4">
-           <Button variant="secondary" className="rounded-xl px-6 bg-orange-100 text-orange-600 hover:bg-orange-200">
+        <div className="flex items-center gap-3">
+           <Button variant="secondary" className="rounded-[40px] text-base px-4 bg-orange-100 text-black hover:bg-orange-200">
              <Link href="#">Login</Link>
            </Button>
-           <Button className="rounded-xl px-6 bg-orange-500 text-white hover:bg-orange-500/90">
+           <Button className="rounded-[40px] px-4 text-base bg-orange-500 text-white hover:bg-orange-500/90">
              <Link href="#">Start Assessment</Link>
            </Button>
          </div>
@@ -91,7 +91,7 @@ export default function Header() {
                 </Link>
             ))}
              <div className="border-t border-gray-200 pt-6 mt-2 flex flex-col gap-4">
-                <Button variant="secondary" className="w-full rounded-xl bg-orange-100 text-orange-600 hover:bg-orange-200">
+                <Button variant="secondary" className="w-full rounded-xl bg-orange-100 text-black hover:bg-orange-200">
                   <Link href="#">Login</Link>
                 </Button>
                 <Button className="w-full rounded-xl bg-orange-500 text-white hover:bg-orange-500/90">
